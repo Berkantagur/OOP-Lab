@@ -40,7 +40,7 @@ int main() {
         }
     }
 
-    // Output the 3*3 array
+    // Output the 3*3 array (First time to display the array)
     cout << "The 3*3 array is:\n";
     for (i = 0; i < 3; i++){
         for (j = 0; j < 3; j++){

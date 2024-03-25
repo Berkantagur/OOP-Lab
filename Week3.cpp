@@ -29,7 +29,7 @@ int main()
         }
     }
 
-    // Display result
+    // Display result of even and odd numbers
     cout << "Number of even numbers: " << evenCount << endl;
     cout << "Number of odd numbers: " << oddCount << endl;
 

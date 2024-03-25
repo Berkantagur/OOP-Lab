@@ -16,7 +16,7 @@ int main()
         cin >> arr[i];
     }
 
-    // Call bubble sort function
+    // Call bubble sort function to sort the array
     bubbleSort(arr, 10);
 
     // Display sorted array
@@ -40,7 +40,7 @@ void bubbleSort(int array[], int size)
         for (j = 0; j < size - i - 1; j++)
         {
             if (array[j] > array[j + 1])
-            { // Swap elements
+            { // Swap elements 
                 temp = array[j];
                 array[j] = array[j + 1];
                 array[j + 1] = temp;
