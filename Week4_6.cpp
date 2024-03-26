@@ -1,3 +1,6 @@
+// Question: Write a C++class BankAccount having private data members int Account_no and double balance. 
+// It must contain constructor for initializing(Account_no and balance) objects and member functions for setBalance, getBalance. 
+// Call these functions for two account holders.
 #include <iostream>
 using namespace std;
 
