@@ -16,11 +16,14 @@ int main(){
     return 0;
 }
 
-//Output:
+//Output: -> o is passed by value
 //Constructing 1
 //Received 1
 //Destructing 1
 //Destructing 1
 
-
-//The output shows that the object x is constructed, then passed to the function f by value.
+// If o is passed by reference -> void f(myclass &o){cout << "Received " << o.id() << "\n";}
+//Output:
+//Constructing 1
+//Received 1
+//Destructing 1
